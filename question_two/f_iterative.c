@@ -4,6 +4,15 @@
  * F_recursive - recurrence relation w/ iterative approach
  * @n: non-negative n'th term
  * 
+ * Iterative Approach:
+ * Advantages:
+ *      Efficient computation and faster execution compared to the recursive approach.
+ *      Avoids redundant calculations and eliminates function call overhead.
+ * Disadvantages:
+ *      Requires a loop to iterate from 3 to n, resulting in a linear time complexity.
+ * Time Complexity: O(n)
+ * Space Complexity: O(1) (constant space usage)
+ * 
  * Return: value after iterative approach
 */
 int F_iterative(int n) {
